@@ -1,0 +1,103 @@
+img{
+	width: 80px;
+	height: 80px;
+}
+.top{
+	padding: 10px;
+	border-bottom: 1px solid #e5e5e5;
+}
+section#centro{
+	padding: 100px;
+}
+
+.html{
+	margin-top: 10px;
+}
+
+.moi{
+	font-family: 'Poppins', sans-serif;
+	font-size: 32px;
+	
+}
+.front{
+	font-size: 22px;
+	position: relative;
+	bottom: 30px;
+	left: 70px;
+}
+i{
+	font-size: 30px;
+}
+li{
+	display: inline-block;
+}
+.has-tip{
+	border-bottom: 0px;
+	margin-right: 30px;
+	cursor: pointer;
+}
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+.tabs{
+	border: 0px;
+}
+h4{
+	color: black;
+}
+
+footer {
+    padding-top: 30px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 60px;
+    width: 100%;
+}
+.habilidad {
+	margin-bottom: 30px;
+}
+.tabs-content ul li{
+	display: block;
+}
+.marketing-site-three-up .row .is-active {
+	background-color: #e5e5e5;
+	border-radius: 10px;
+}
+.marketing-site-three-up {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.marketing-site-three-up .row {
+  max-width: 900px;
+}
+
+.marketing-site-three-up .columns {
+  margin-bottom: 1rem;
+  padding-top: 18px;
+  border-radius: 10px;
+  transition: 1s;
+
+}
+.marketing-site-three-up .columns:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-three-up .columns {
+    margin-bottom: 0;
+  }
+}
+
+.marketing-site-three-up .fa {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #1779ba;
+}
+
+.marketing-site-three-up-headline {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
