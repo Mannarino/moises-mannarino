@@ -10,7 +10,6 @@
     <title>Moises Mannarino - portafolio</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" type="text/css" href="css/portafolio.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="foundation-icons/foundation-icons.css">
@@ -32,13 +31,15 @@ com"><i class="fi-mail large"></i></a></div>
     <div class="row">
      <div class="column small-6 medium-3 large-offset-3">
        <div class="row text-center small-12 show-for-large">
-          <div class="column small-12">  
-          <img src="img/css.svg">
-          <img src="img/js.svg">
+          <div class="column small-12 flex">  
+          <img class="animar-pelota1" src="img/css.svg">
+          
+          <img class="animar-pelota2" src="img/js.svg">
+          
+          <img class="animar-pelota3" src="img/html.svg">
+          <span class="shadow"></span>
           </div>
-          <div class="column small-12 html">
-          <img src="img/html.svg">
-          </div>
+          
         </div>
       </div>
       <div class="column small-12 large-3 text-center moi"><p>Moises Mannarino</p> <span class="label secondary front">Maquetador web-Frontend</span></div>
@@ -49,9 +50,9 @@ com"><i class="fi-mail large"></i></a></div>
   
   <div class="row medium-unstack align-spaced">
   <ul class="tabs" data-tabs id="para-tabs">
-  <li class="tabs-title">
+  <li class="tabs-title" id="acercas">
     <div class="columns">
-    <a href="#acerca">
+    <a href="#acerca" >
       <img src="img/engranajes.svg">
       <h4 class="marketing-site-three-up-title">Acerca de mi</h4>
       </a>
@@ -654,47 +655,7 @@ com"><i class="fi-mail large"></i></a></div>
                                                   
                                                 </div>
                                               </div>
-                                            </div>
-                
-                                  
-                                  
-                                   
-                                       
-                                  
-                                       
-                                  
-                                     
-                                   
-                                  
-                                
-                                          
-
-
-
-
-
-                                
-                                 
-                               
-
-
-
-
-
-
-
-
-
-
-
-                                
-                                         
-                                 
-                                         
-                                 
-                                         
-                                 
-                                        
+                                            </div>   
                                       
                                
           
@@ -708,5 +669,15 @@ com"><i class="fi-mail large"></i></a></div>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script type="text/javascript">
+       
+      var menuacerca=document.getElementById('acercas');
+      var sectionocultado=document.getElementById('centro');
+      menuacerca.addEventListener("click", ana);
+      function ana(){
+        sectionocultado.classList.add('ocultar-section');
+      }
+    
+    </script>
   </body>
 </html>
