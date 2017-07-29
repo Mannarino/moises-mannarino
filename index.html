@@ -58,7 +58,7 @@ com"><i class="fi-mail large"></i></a></div>
       </a>
     </div>
     </li>
-    <li class="tabs-title">
+    <li class="tabs-title"  id="habilidad-menu">
     <div class="columns">
     <a href="#habilidades">
       <img src="img/habilidades.svg">
@@ -66,7 +66,7 @@ com"><i class="fi-mail large"></i></a></div>
       </a>
     </div>
     </li>
-    <li class="tabs-title">
+    <li class="tabs-title" id="estudios-menu">
     <div class="columns">
     <a href="#estudios">
       <img src="img/graduacion-de-la-universidad.svg">
@@ -75,7 +75,7 @@ com"><i class="fi-mail large"></i></a></div>
     </div>
     </li>
 
-    <li class="tabs-title">
+    <li class="tabs-title" id="portafolio-meni">
     <div class="columns">
     <a href="#portafolio">
       <img src="img/portafolio-carpeta-abierta-llena.svg">
@@ -677,7 +677,29 @@ com"><i class="fi-mail large"></i></a></div>
       function ana(){
         sectionocultado.classList.add('ocultar-section');
       }
-    
+
+
+      var menuhabilidad=document.getElementById('habilidad-menu');
+      
+      menuhabilidad.addEventListener("click", ana);
+      function ana(){
+        sectionocultado.classList.add('ocultar-section');
+      }
+
+
+      var menuestudios=document.getElementById('estudios-menu');
+      var sectionocultado=document.getElementById('centro');
+      menuestudios.addEventListener("click", ana);
+      function ana(){
+        sectionocultado.classList.add('ocultar-section');
+      }
+
+      var menuportafolio=document.getElementById('portafolio-meni');
+      var sectionocultado=document.getElementById('centro');
+      menuportafolio.addEventListener("click", ana);
+      function ana(){
+        sectionocultado.classList.add('ocultar-section');
+      }
     </script>
   </body>
 </html>
