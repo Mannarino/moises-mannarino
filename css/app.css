@@ -237,9 +237,18 @@ footer {
 
 /*ocultar section */
 .ocultar-section{
-  display: none;
+  animation:subir 2s ;
+  animation-fill-mode: forwards; 
 }
 
 #acerca{
   font-family: 'Open Sans', sans-serif;
+}
+
+
+@keyframes subir {
+  to{
+    padding: 0;
+  }
+  
 }
