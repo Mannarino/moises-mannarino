@@ -252,3 +252,8 @@ footer {
   }
   
 }
+
+.description-item4 p a{
+  font-weight: bold;
+  font-size: 22px;
+}
