@@ -178,6 +178,7 @@ footer {
 .texto-central{
   position: relative;
   top: -30px;
+  opacity: 0;
 }
 
 .description-item4 {
