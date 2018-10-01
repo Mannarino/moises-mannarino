@@ -1,0 +1,53 @@
+/* estilos propios para retocar el menu*/
+.tabs{
+	border: 0px;
+  .tabs-title{
+    display: inline-block;
+    float: none;
+    h4{
+      color: black;
+    }
+  }
+}
+.tabs-content ul li{
+	display: block;
+}
+/* /estilos propios para retocar el menu*/
+
+/* estilos del componente prea-armado de foundation*/
+.marketing-site-three-up .row .is-active {
+	background-color: #e5e5e5;
+	border-radius: 10px;
+}
+.marketing-site-three-up {
+  text-align: center;
+  padding: 2rem 0;
+}
+.marketing-site-three-up .row {
+  max-width: 900px;
+}
+.marketing-site-three-up .columns {
+  margin-bottom: 1rem;
+  padding-top: 18px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.marketing-site-three-up .columns:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+@media screen and (min-width: 40em) {
+  .marketing-site-three-up .columns {
+    margin-bottom: 0;
+  }
+}
+.marketing-site-three-up .fa {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #1779ba;
+}
+.marketing-site-three-up-headline {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+/* /estilos del componente prea-armado de foundation*/

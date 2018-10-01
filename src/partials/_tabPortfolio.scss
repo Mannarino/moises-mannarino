@@ -1,0 +1,89 @@
+/*mensaje a los visitantes*/
+.parrafo-lindo {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px;
+    color: #C09853;
+    margin-bottom: 18px;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+}
+/* /mensaje a los visitantes*/
+
+/*cajita que contiene cada proyecto*/
+.item-blog {
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border: 3px; 
+  border-color: #ebebeb; 
+  border-style: solid; 
+  border-radius: 5px; 
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  margin-bottom: 30px;
+  p {
+    margin-top: 0px;
+  }
+  .texto-central{
+    position: relative;
+    top: -30px;
+    opacity: 0;
+  }
+  .description-item4 {
+    background: rgba(255, 255, 255, .8);
+    opacity: 0.5;
+    transition: 2s;
+    p a{
+      font-weight: bold;
+      font-size: 22px;
+    }
+    .autor {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      border-top: 1px solid gray;
+      padding-top: 5px;
+      img {
+        border-radius: 50%;
+        vertical-align: middle;
+        height: 35px;
+        width: 35px;
+        margin-right: 5px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+ /* /cajita que contiene cada proyecto*/
+
+ /* animacion en cajita que contiene cada proyecto*/
+.contenedor-imagen-animacion{
+  height: 200px;
+  .imagen-animacion4{
+    width: 100%;
+    height: auto;
+    transition: 1.3s;
+    transform: scale(0.5);
+  }
+  .animacion-4:hover .imagen-animacion4{
+    transform: scale(1);
+  }
+  .animacion-4:hover .description-item4{
+    opacity: 1;
+  }
+  .animacion-4:hover .texto-central{
+    opacity: 0;
+  }
+}
+ /* /animacion en cajita que contiene cada proyecto*/
+
+

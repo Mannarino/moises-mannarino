@@ -1,0 +1,33 @@
+/*animacion principal del home */
+.animacion-home{
+  display: flex;
+  justify-content: space-around;
+  .animar-imagen-1{
+  	animation: rebotar 2.5s alternate infinite ease-in;
+	}
+  .animar-imagen-2{
+  	animation: rebotar 2.3s alternate infinite ease-in;
+	}
+  .animar-imagen-3{
+  	animation: rebotar 2s alternate infinite ease-in;
+	}
+}
+@keyframes rebotar {
+  to{
+    transform: translateY(100px);
+  }
+}
+/* /animacion principal del home */
+
+/*deslizar tabs para arriba */
+.deslizar-tabs-para-arriba{
+  /*esta clase se agrega con javascript,no esta en la vista */
+  animation:subir 2s ;
+  animation-fill-mode: forwards; 
+}
+@keyframes subir {
+  to{
+    padding: 0;
+  }
+}
+/* /deslizar tabs para arriba */
